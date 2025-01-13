@@ -25,7 +25,5 @@ int main(){
     cin >> name;
     cout <<"My age is "<<age;
 
-    //aadgwrqerregd
-
     return 0;
 }
