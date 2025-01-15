@@ -17,13 +17,19 @@ int main(){
 
     //Prompt the user to enter his or her name
     cout <<"Enter your name:"<<endl;
-    cin >> name;
+    getline(cin, name);
     cout <<"My name is "<<name;
 
     //Prompt the user to enter his or her age
     cout <<endl<<"Enter your age:"<<endl;
-    cin >> name;
-    cout <<"My age is "<<age;
+    cin >> age;
+    cout <<"My age is "<<age<<endl;
+
+    if (age >=18){
+        cout <<endl<<"You are allowed to vote";
+    }else{
+        cout <<endl<<"You are not allowed to vote";
+    }
 
     return 0;
 }
