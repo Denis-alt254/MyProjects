@@ -22,7 +22,8 @@ int main(){
 
     div = num % 2;
 
-    if (div = 0 ){
+    //Check if num is even or odd
+    if (div == 0 ){
         cout <<endl<<"The number is even";
     }else{
         cout <<endl<<"The number is odd";
