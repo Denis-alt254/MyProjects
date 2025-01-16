@@ -24,7 +24,7 @@ int main(){
     cout <<"Radius is: "<<radius<<units;
 
     //calculate the volume
-    volume = 4/3 * Pi *radius^3;
+    volume = 4/3 * Pi *(radius)^3;
     cout <<endl<<"Volume of the sphere is: "<<volume<<units<<"^2";
 
     return 0;
