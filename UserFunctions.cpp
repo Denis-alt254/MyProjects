@@ -1,3 +1,12 @@
+/*
+User defined Functions
+
+Author: Denis Kipkurui
+Reg no: BSE-05-0175/2024
+Date: 20/1/2025
+
+*/
+
 #include <iostream>
 using namespace std;
 
