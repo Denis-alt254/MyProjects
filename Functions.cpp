@@ -13,14 +13,14 @@ using namespace std;
 
 int main(){
 
-    //declare variables
+    //Declare variables
     int num;
 
     //Prompt the user to enter a number
     cout <<"Enter a number:"<<endl;
     cin>>num;
 
-    //print the solutions
+    //Print the solutions
     cout <<"Square root: "<<sqrt(num)<<endl;
     cout <<"Tan :"<<tan(num)<<endl;
     cout <<"Cos :"<<cos(num)<<endl;
