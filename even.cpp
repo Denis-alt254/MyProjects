@@ -18,15 +18,15 @@ int main(){
     //Prompt the user to enter a number
     cout <<"Enter a number:"<<endl;
     cin >>num;
-    cout <<endl<<"The number is "<<num<<endl;
+    cout <<endl<<"Number: "<<num<<endl;
 
     div = num % 2;
 
     //Check if num is even or odd
     if (div == 0 ){
-        cout <<endl<<"The number is even";
+        cout <<endl<<"Is an even number.";
     }else{
-        cout <<endl<<"The number is odd";
+        cout <<endl<<"Is an odd number.";
     }
 
     return 0;
