@@ -1,9 +1,9 @@
 /*
-Predifined Functions
+Cpp programe to calculate fine of library books
 
 Author: Denis Kipkurui
 Reg no: BSE-05-0175/2024
-Date: 20/1/2025
+Date: 24/1/2025
 
 */
 
