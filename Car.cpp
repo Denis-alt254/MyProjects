@@ -48,6 +48,5 @@ int main(){
     cout<<endl<<"Updated_mileage: "<<c1.drive(150)<<endl;
     cout<<"Updated_mileage: "<<c1.drive(300)<<endl;
 
-
     return 0;
 }
