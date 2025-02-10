@@ -8,7 +8,7 @@ Date: 20/1/2025
 
 */
 #include <iostream>
-#include <cmath>  // for M_PI
+#include <cmath>  
 
 int main() {
     double radius;
