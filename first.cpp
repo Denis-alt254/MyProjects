@@ -3,6 +3,7 @@ cpp programe to check voting eligibility
 
 Author: Denis
 Reg no: BSE-05-0175/2024
+Group: 3
 Date: 13/01/2025
 */
 

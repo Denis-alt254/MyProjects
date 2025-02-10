@@ -1,7 +1,9 @@
 /*
 Cpp programe to find the area and volume of a cylinder
+
 Author: Denis Kipkurui
 Reg no: BSE-05-0175/2024
+Group: 3
 Date: 27/1/2025
 
 */
