@@ -44,4 +44,5 @@ int main(){
     }else{
         cout<<"Fine is: Ksh 100"<<endl;
     }
+    return 0;
 }
