@@ -64,7 +64,7 @@ class PremiumMember:public LibraryMember{
 
 int main (){
     //Creat a PremiumMember object
-    PremiumMember member1("Denis Korir", 868978242322, 2, 35);
+    PremiumMember member1("Denis Korir", 6743522, 2, 35);
 
     //Display member details
     cout<<"Library Member Details"<<endl;
