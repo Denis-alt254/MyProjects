@@ -1,3 +1,12 @@
+/*
+Cpp encapsulation programe
+
+Author: Denis Kipkurui
+Reg no: BSE-05-0175/2024
+Group: 3
+Date: 10/3/2025
+
+*/
 #include<iostream>
 using namespace std;
 
