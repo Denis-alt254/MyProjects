@@ -30,10 +30,10 @@ int main(){
     if (Bmi < 18.5){
         cout<<"Underweight"<<endl;
     }
-    else if (18.5<=Bmi<24.9){
+    else if (18.5<=Bmi && Bmi<24.9){
         cout<<"Normal Weight"<<endl;
     }
-    else if (25<=Bmi<29.9){
+    else if (25<=Bmi && Bmi<29.9){
         cout<<"Overweight"<<endl;
     }
     else if (Bmi >= 30){

@@ -10,8 +10,7 @@ Date: 17/3/2025
 #include<iostream>
 using namespace std;
  
-void calculateBonus(float rate){
-    float salary;
+void calculateBonus(float salary, float rate){
     float total;
     float bonus;
     bonus = salary*rate/100;
@@ -20,9 +19,7 @@ void calculateBonus(float rate){
     cout<<"Total: "<<total<<endl;
     
 }
-void loan(){
-    int age;
-    float salary;
+void loan(float salary, int age){
     if (age >=21){
         if (salary >=21000){
             cout<<"Congratulations you qualify for loan."<<endl;
@@ -47,20 +44,20 @@ int main(){
 
     if (experience > 10){
         rate = 12;
-        calculateBonus(rate);
-        loan();
+        calculateBonus(salary, rate);
+        loan(salary, age);
     }
-    else if (6<=experience<=10)
+    else if (6<=experience && experience<=10)
     {
         rate = 10;
-        calculateBonus(rate);
-        loan();
+        calculateBonus(salary, rate);
+        loan(salary, age);
     }
     else if (experience<6)
     {
         rate = 6;
-        calculateBonus(rate);
-        loan();
+        calculateBonus(salary, rate);
+        loan(salary, age);
     }
        
     return 0;
