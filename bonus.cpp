@@ -28,6 +28,9 @@ void loan(float salary, int age){
             cout<<"Unfortunately, we are unable to offer you a loan at this time."<<endl;
         }
     }
+    else{
+        cout<<"Unfortunately, we are unable to offer you a loan at this time."<<endl;
+    }
 }
 int main(){
     //declare variables
